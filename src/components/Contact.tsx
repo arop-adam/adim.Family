@@ -19,7 +19,7 @@ export default function Contact() {
 
     try {
       // Direct email sending using Formspree (you need to set up Formspree)
-      const formId = 'your_formspree_id'; // Replace with your Formspree form ID
+      const formId = 'mlgpdowk'; // Your Formspree form ID
       
       const response = await fetch(`https://formspree.io/f/${formId}`, {
         method: 'POST',
