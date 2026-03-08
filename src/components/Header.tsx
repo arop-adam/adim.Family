@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import logoPng from '/logo.png';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +19,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
             <img
-              src="./logo.svg"
+              src={logoPng}
               alt="Adim & Family Investments logo"
               className="w-16 h-16 object-contain"
             />
