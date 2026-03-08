@@ -1,5 +1,4 @@
 import { Mail, Phone, MapPin } from 'lucide-react';
-import logoSvg from '/logo.svg';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -11,7 +10,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-4 mb-4">
               <img
-                src={logoSvg}
+                src="/adimAndFamily/logo.svg"
                 alt="Adim & Family Investments logo"
                 className="w-16 h-16"
               />
