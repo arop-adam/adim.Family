@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-4 mb-4">
               <img
-                src="/adimAndFamily/logo.svg"
+                src="./logo.svg"
                 alt="Adim & Family Investments logo"
                 className="w-16 h-16 object-contain"
               />
