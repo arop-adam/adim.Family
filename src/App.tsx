@@ -11,7 +11,7 @@ function App() {
   // Simple route detection - check for both base paths
   const pathname = window.location.pathname;
   
-  if (pathname === '/admin' || pathname === '/adim.Family/admin') {
+  if (pathname === '/admin' || pathname.endsWith('/admin')) {
     return <AdminRoute />;
   }
 
